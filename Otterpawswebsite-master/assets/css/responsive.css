@@ -1,0 +1,173 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       : DuezaThemes
+Author URL   : https://themeforest.net/user/duezathemes
+Template Name: DIVE - Corporate Multi-Purpose Parallax Template
+Version      : 2.0                                          
+* ----------------------------------------------------------------------------------------
+*/
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .mainmenu .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .single-logo {
+        margin-top: 30px;
+    }
+    .single-blog img {
+        width: 100%;
+    }
+    .pricing-box {
+        margin-top: 30px;
+    }
+    .have-a-project-idea-white .project-idea h2,
+    .have-a-project-idea-white .project-idea p {
+        font-size: 22px;
+    }
+    .project-idea h2,
+    .project-idea p {
+        font-size: 22px;
+    }
+    .single-logo {
+        width: 160px;
+        margin: 0 auto;
+    }
+    .single-project-complete {
+        margin-top: 30px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggle .icon-bar {
+        background: #f8f8f8;
+    }
+    .menu-bg .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        margin-top: -30px;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .mainmenu .navbar-nav li a:hover {
+        color: #fff;
+    }
+    .menu-bg .mainmenu .navbar-nav li a:hover {
+        color: #fff;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-toggle {
+        margin-top: -40px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .menu-bg .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .welcome-image-area,
+    .welcome-video-area {
+        padding-top: 120px;
+    }
+    .welcome-image-area h2,
+    .single-slide-item h2,
+    .welcome-video-area h2 {
+        font-size: 30px;
+    }
+    a.slide-btn {
+        font-size: 14px;
+        padding: 5px;
+        width: 140px;
+        margin-bottom: 5px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .section-title h2 span {
+        font-size: 30px;
+    }
+    .footer-social-link {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .pricing-box {
+        margin-top: 30px;
+    }
+    .single-testimonial {
+        padding: 0;
+    }
+    .video-area-text {
+        margin-top: 50px;
+    }
+    .footer-social-link {
+        text-align: center;
+    }
+    .footer-area img {
+        margin-bottom: 0px;
+    }
+    .scrollup {
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+    .our-news-letter input[type="text"] {
+        width: 90%;
+    }
+    .our-news-letter h2 {
+        font-size: 16px;
+    }
+    .single-project-complete {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .header-text {
+        margin-top: 10px;
+    }
+    .footer-text h6 {
+        font-size: 10px;
+    }
+    .footer-area {
+        padding: 50px 0px;
+    }
+    .section-padding {
+        padding: 40px 0px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-logo {
+        margin-bottom: 20px;
+    }
+}
